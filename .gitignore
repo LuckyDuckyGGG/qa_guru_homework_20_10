@@ -1,5 +1,6 @@
 # Allure
 tests/allure-results
+homework/tests/allure-results
 
 # Idea
 .idea
