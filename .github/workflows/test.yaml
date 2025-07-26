@@ -3,7 +3,7 @@ name: Tests
 on:
   push:
     branches:
-      - "main"
+      - "master"
 jobs:
   test:
     name: Test
@@ -21,7 +21,7 @@ jobs:
         run: |
           pytest --alluredir=allure-results
 
-#      - name: Get Allure historye
+#      - name: Get Allure history
 #        uses: actions/checkout@v2
 #        if: always()
 #        continue-on-error: true
